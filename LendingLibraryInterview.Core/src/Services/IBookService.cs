@@ -6,7 +6,7 @@ namespace LendingLibraryInterview.Api.Services
     {
         Task AddBookAsync(string title, string author);
         Task<List<Book>> SearchBooksByAuthorAsync(string author);
-        Task<List<Book>> SearchBooksByIsbnAsync(string author);
+        Task<List<Book>> SearchBooksByIsbnAsync(string isbn);
         Task BorrowBookAsync(int bookId);
         Task ReturnBookAsync(int bookId);
     }
