@@ -12,3 +12,5 @@ Welcome to the Book Lending Library API coding challenge! In this challenge, we 
 
 ## Migrations
 dotnet ef migrations add "Initial Migration" -p ./LendingLibraryInterview.Data -s ./LendingLibraryInterview.Api
+
+dotnet ef database update -p ./LendingLibraryInterview.Data -s ./LendingLibraryInterview.Api
